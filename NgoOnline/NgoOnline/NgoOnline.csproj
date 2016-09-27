@@ -186,6 +186,7 @@
     <Content Include="Admin\adminControl.ascx" />
     <Content Include="Admin\Contact\contactControl.ascx" />
     <Content Include="Admin\Login.ascx" />
+    <Content Include="Admin\Menu.ascx" />
     <Content Include="Admin\News\NewsControl.ascx" />
     <Content Include="Admin\Product\ProductControl.ascx" />
     <Content Include="Admin\User\UserControl.ascx" />
@@ -278,6 +279,13 @@
     </Compile>
     <Compile Include="Admin\Login.ascx.designer.cs">
       <DependentUpon>Login.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Menu.ascx.cs">
+      <DependentUpon>Menu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Menu.ascx.designer.cs">
+      <DependentUpon>Menu.ascx</DependentUpon>
     </Compile>
     <Compile Include="Admin\News\NewsControl.ascx.cs">
       <DependentUpon>NewsControl.ascx</DependentUpon>
