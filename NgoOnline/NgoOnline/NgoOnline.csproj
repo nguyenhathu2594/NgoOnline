@@ -182,9 +182,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Adminstrator.aspx" />
+    <Content Include="Admin\adminControl.ascx" />
+    <Content Include="Admin\Contact\contactControl.ascx" />
+    <Content Include="Admin\Login.ascx" />
+    <Content Include="Admin\News\NewsControl.ascx" />
+    <Content Include="Admin\Product\ProductControl.ascx" />
+    <Content Include="Admin\User\UserControl.ascx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Display\DisplayControl.ascx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -243,6 +251,55 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adminstrator.aspx.cs">
+      <DependentUpon>Adminstrator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Adminstrator.aspx.designer.cs">
+      <DependentUpon>Adminstrator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\adminControl.ascx.cs">
+      <DependentUpon>adminControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\adminControl.ascx.designer.cs">
+      <DependentUpon>adminControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Contact\contactControl.ascx.cs">
+      <DependentUpon>contactControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Contact\contactControl.ascx.designer.cs">
+      <DependentUpon>contactControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Login.ascx.cs">
+      <DependentUpon>Login.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Login.ascx.designer.cs">
+      <DependentUpon>Login.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\News\NewsControl.ascx.cs">
+      <DependentUpon>NewsControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\News\NewsControl.ascx.designer.cs">
+      <DependentUpon>NewsControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Product\ProductControl.ascx.cs">
+      <DependentUpon>ProductControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Product\ProductControl.ascx.designer.cs">
+      <DependentUpon>ProductControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\User\UserControl.ascx.cs">
+      <DependentUpon>UserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\User\UserControl.ascx.designer.cs">
+      <DependentUpon>UserControl.ascx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -253,6 +310,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Display\DisplayControl.ascx.cs">
+      <DependentUpon>DisplayControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Display\DisplayControl.ascx.designer.cs">
+      <DependentUpon>DisplayControl.ascx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
