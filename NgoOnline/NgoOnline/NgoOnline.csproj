@@ -190,6 +190,7 @@
     <Content Include="Admin\News\NewsControl.ascx" />
     <Content Include="Admin\Product\ProductControl.ascx" />
     <Content Include="Admin\User\UserControl.ascx" />
+    <Content Include="Content\admin.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
@@ -308,6 +309,11 @@
     <Compile Include="Admin\User\UserControl.ascx.designer.cs">
       <DependentUpon>UserControl.ascx</DependentUpon>
     </Compile>
+    <Content Include="App_Code\clsNews.cs" />
+    <Content Include="App_Code\clsProduct.cs" />
+    <Content Include="App_Code\clsUser.cs" />
+    <Content Include="App_Code\clsContact.cs" />
+    <Content Include="App_Code\clsDT.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -355,7 +361,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Admin\" />
     <Folder Include="App_Data\" />
   </ItemGroup>
   <PropertyGroup>
