@@ -153,6 +153,5 @@ C:\Users\ThuNH\Documents\GitHub\NgoOnline\NgoOnline\NgoOnline\bin\Microsoft.Owin
 C:\Users\ThuNH\Documents\GitHub\NgoOnline\NgoOnline\NgoOnline\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\ThuNH\Documents\GitHub\NgoOnline\NgoOnline\NgoOnline\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\ThuNH\Documents\GitHub\NgoOnline\NgoOnline\NgoOnline\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Users\ThuNH\Documents\GitHub\NgoOnline\NgoOnline\NgoOnline\obj\Debug\NgoOnline.csprojResolveAssemblyReference.cache
 C:\Users\ThuNH\Documents\GitHub\NgoOnline\NgoOnline\NgoOnline\obj\Debug\NgoOnline.dll
 C:\Users\ThuNH\Documents\GitHub\NgoOnline\NgoOnline\NgoOnline\obj\Debug\NgoOnline.pdb
